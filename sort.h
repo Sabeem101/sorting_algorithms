@@ -30,5 +30,9 @@ int lleng(listint_t *head);
 /* Selection sort */
 void arr_swap(int *x, int *y);
 void selection_sort(int *array, size_t size);
+/* Quick sort */
+int lpartition(int *array, int lowest, int highest, size_t size);
+void quicks(int *array, int L, int H, size_t size);
+void quick_sort(int *array, size_t size);
 
 #endif
